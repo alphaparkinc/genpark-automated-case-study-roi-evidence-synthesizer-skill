@@ -1,0 +1,41 @@
+{
+  "name": "genpark-automated-case-study-roi-evidence-synthesizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Automated enterprise case study ROI evidence synthesizer formatting quantitative customer success stories.",
+  "author": "genpark",
+  "category": "marketing-content",
+  "tags": [
+    "case-study",
+    "roi-calculator",
+    "customer-success",
+    "b2b-evidence",
+    "narrative-framework"
+  ],
+  "inputs": {
+    "customer_industry": {
+      "type": "string"
+    },
+    "challenge_description": {
+      "type": "string"
+    },
+    "quantified_roi_metrics": {
+      "type": "object"
+    }
+  },
+  "outputs": {
+    "case_study_id": {
+      "type": "string"
+    },
+    "storytelling_framework": {
+      "type": "string"
+    },
+    "quantified_roi_validated": {
+      "type": "boolean"
+    },
+    "case_study_pdf_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
